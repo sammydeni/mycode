@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//controlla se l'input è un numero primo
+
 int main(int argc, char const *argv[])
 {
     int n, i, c=0;
@@ -12,6 +14,7 @@ int main(int argc, char const *argv[])
         if(n%i==0)
             c++;
         }
+
     if(c==2)
         printf("Il numero e' Primo!\n");
     else
