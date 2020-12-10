@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//calcola max e min
+//calcola max e min utilizzando un ciclo for
 
 int main(int argc, char const *argv[])
 {
