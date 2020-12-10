@@ -3,6 +3,7 @@
 
 int main(int argc, char const *argv[])
 {
+    //dichiaro le variabili
     int max, min, c, a;
     printf("Inserisci il primo numero: ");
     scanf("%d", &max);
