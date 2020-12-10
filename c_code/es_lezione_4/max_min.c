@@ -18,11 +18,9 @@ int main(int argc, char const *argv[])
         scanf("%d", &a);
         if (a > max)
             max = a;
-        else
-            {
-            if (a < min)
-                min = a;
-            }
+         
+        if (a < min)
+            min = a;
         c++;
         }
     
