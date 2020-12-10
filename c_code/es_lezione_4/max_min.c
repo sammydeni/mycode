@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//calcola max e min
+
 int main(int argc, char const *argv[])
 {
     //dichiaro le variabili
