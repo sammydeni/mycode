@@ -1,3 +1,5 @@
+//media di 100 numeri
+
 #include <stdio.h>
 #include <stdlib.h>
 
