@@ -6,13 +6,11 @@ int main(int argc, char *argv[])
   char a;
   
  printf("inserisci una lettera minuscola:");
- scanf(" %c",&a); 
-
+ a=getchar();
 
  while (a<'a' || a>'z')
  {
-    printf("Errore! Inserisci lettera minuscola: ");
-    scanf(" %c",&a);
+    a=getchar();
 
     
  }
