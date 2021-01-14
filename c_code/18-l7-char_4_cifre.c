@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
         e=e/10;
     }
 
-    printf("Il numero e': %d", n);
+    printf("Il numero e': %d\n", n);
 
 	
 
