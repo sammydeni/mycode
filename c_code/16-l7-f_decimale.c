@@ -5,7 +5,7 @@ int leggiCifra()
     {
         int a;
     scanf("%d",&a);
-    while (a < 1 || a > 9)
+    while (a < 0 || a > 9)
     {
         scanf("%d",&a);
     }
