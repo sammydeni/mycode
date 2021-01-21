@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 /* programma che stampa le tabelline del 2, 3, etc */
 
 
