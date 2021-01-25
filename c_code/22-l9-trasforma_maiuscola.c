@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <conio.h>
 
+// @return cifra inserita in input
 char inputLettera()
     {
     char a;
@@ -15,6 +16,7 @@ char inputLettera()
     return a;
     }
 
+// @return cifra in maiuscolo
 char inMaiuscola()
     {
     char k;
