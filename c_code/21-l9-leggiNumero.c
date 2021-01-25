@@ -1,30 +1,37 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <conio.h>
 
-int leggiCifra()
-{
+// @return cifra inserita dall'utente char --> int
+int leggiCifra() {
 	char cifra;
-	cifra=getchar();
-	while(cifra<'0' || cifra>'9')
-	{
-		cifra=getchar();
+	cifra = getch();
+	while((cifra < '0' || cifra > '9') && cifra != 13) {
+		cifra = getch();
+		
 	}
-	cifra=cifra-'0'; 
-	return(cifra);
+	return (int) cifra - 48;
 }
 
-
-
-int main(int argc, char *argv[]) 
-{
-	int cifra, c, n=0,e= 1000;
-	printf("Inserisci 4 cifre decimali: ");
-	for(c=0;c<4;c++)
+// @return numero intero
+int leggiNumero() {
+	int numero=0, cifra;
+	cifra = leggiCifra();
+	while(cifra != -35)
 	{
-		cifra=leggiCifra();	
-        n+=cifra*e;
-        e=e/10;
-    }
-    printf("Il numero e': %d\n", n);
+	printf("%d",cifra);
+	numero = (numero * 10) + cifra;
+	cifra = leggiCifra();
+	}
+	return numero;
+} 
+
+
+int main(int argc, char *argv[]) {
+	int numero;
+	printf("Inserisci un numero: ");
+	numero = leggiNumero();
+	
+	printf("\nIl numero e': %d", numero);
 	return 0;
 }
