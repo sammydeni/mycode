@@ -8,7 +8,7 @@ char inputLettera()
   
     printf("inserisci una lettera: ");
     a=getch();
-    while ((a<'a' || a>'z') && (a<'A' || a>'Z'))
+    while ((a<'a' || a>'z') || (a<'A' || a>'Z'))
     {
         a=getch();
     }
