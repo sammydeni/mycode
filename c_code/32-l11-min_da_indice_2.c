@@ -26,25 +26,31 @@ int stampaVet(int box[], int n)
     return 0;
 }
 
-// @return funzione che restituisce la somma dell'array
-int sommaArray(int box[], int n)
+//@return restituisce l'indice del valore minimo partendo da una posizione passata come parametro
+int indiceMin(int box[], int n, int p)
 {
-    int i,s=0;
-    for(i=0;i<n;i++)
+    int i, min = box[p], indice = p;
+    for(i=p; i<n;i++)
     {
-        s+=box[i];
+    if(box[i] < min)
+        {
+        min = box[i];
+        indice = i; 
+        }
     }
-    return s;
+    return indice;
 }
 
 int main(int argc, char const *argv[])
 {
-    int box[100], n, s;
+    int box[100], n, p, indice;
     printf("Quanti valori vuoi inserire? ");
     scanf("%d",&n);
     inputArray(box,n);
     stampaVet(box,n);
-    s= sommaArray(box,n);
-    printf("\nLa somma dell'Array e': %d",s);
+    printf("\nInserisci la posizione da cui partire per trovare il min: ");
+    scanf("%d",&p);
+    indice = indiceMin(box,n,p);
+    printf("\nL'indice del valore minimo e': %d",indice);
     return 0;
 }
