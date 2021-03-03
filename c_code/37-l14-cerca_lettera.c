@@ -47,6 +47,17 @@ void stampaArray(char parola[], int dim)
 	}
 }
 
+void cercaLettera(char parola[], int dim, char ricerca)
+{
+    int i, conta=0;
+    for(i=0; i<dim; i++)
+    {
+        if(parola[i]==ricerca)
+        conta++;
+    }
+    printf("Nella frase sono presenti %d %c",conta, ricerca);
+}
+
 
 int main(int argc, char *argv[]) 
 {
@@ -57,6 +68,9 @@ int main(int argc, char *argv[])
 	nlettere=leggiParola(parola, DIM);
 	printf("\n");
 	stampaArray(parola, nlettere);
-   
+    printf("\nChe lettera vuoi cercare?");
+    scanf("%c", &ricerca);
+    cercaLettera(parola, nlettere, ricerca);
+
 	return 0;
 }

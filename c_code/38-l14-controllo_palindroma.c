@@ -46,7 +46,32 @@ void stampaArray(char parola[], int dim)
 		printf("%c", parola[i]);
 	}
 }
+// funzione che mi dice se una parola è palindroma o no
+void controlloPalindroma(char parola[], int dim)
+{
+    int i;
+    int countdown = dim;
+    int controllo = 0;
+    char reverse[dim];
 
+    for(i=0; i<dim; i++)   //inverto la frase
+    {
+        reverse[countdown-1] = parola[i];
+        countdown--;
+    }
+
+    for(i=0; i<dim; i++)
+    {
+        if(parola[i] == reverse[i])
+        controllo++;
+    }
+    if(dim == controllo)
+        printf("\nLa frase/parola e' palindroma!\n");
+    else
+        printf("\nLa frase/parola NON e' palindroma!\n");
+
+
+}
 
 int main(int argc, char *argv[]) 
 {
@@ -57,6 +82,6 @@ int main(int argc, char *argv[])
 	nlettere=leggiParola(parola, DIM);
 	printf("\n");
 	stampaArray(parola, nlettere);
-   
+    controlloPalindroma(parola, nlettere);
 	return 0;
 }
