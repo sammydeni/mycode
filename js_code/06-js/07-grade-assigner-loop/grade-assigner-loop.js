@@ -1,3 +1,16 @@
+/**
+* @file: grade-assigner.js
+* @author: Samuele
+* returns the grade for every score
+*
+*/
+
+
+/**
+ * 
+ * @param {number} score 
+ * @returns the grade for every score
+ */
 function assignGrade(score) {
     if (score > 90) {
         return 'A';
