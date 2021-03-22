@@ -1,0 +1,13 @@
+a {
+    color: red;
+}
+
+ul a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rosybrown;
+}
+
+p a {
+    color: royalblue;
+    font-family: 'Roboto Mono', monospace;
+}
