@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int decToBin(int n, int bitbox[])
+int decToBin(int bitbox[], int n)
     {
         int bit;
         int i = 0;
@@ -36,7 +36,7 @@ int main(int argc, char const *argv[])
     printf("Inserisci un numero decimale: ");
     scanf("%d",&n);
 
-    dim = decToBin(n, bitbox);
+    dim = decToBin(bitbox, n);
     stampaRev(bitbox, dim);
     return 0;
 }
