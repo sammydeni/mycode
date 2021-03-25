@@ -1,17 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//aggiungere commenti
 int decToBin(int bitbox[], int n)
     {
         int bit;
-        int i = 0;
+        int i;
     
 
-    while(n>0)
+    for(i=0; n > 0 ; i++)
         {
         bitbox[i]= n % 2;
         n = n / 2;
-        i++;
         }
 
     return i;
