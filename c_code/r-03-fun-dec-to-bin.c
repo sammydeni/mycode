@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define N 32
 //aggiungere commenti
 int decToBin(int bitbox[], int n)
     {
@@ -7,7 +8,7 @@ int decToBin(int bitbox[], int n)
         int i;
     
 
-    for(i=0; n > 0 ; i++)
+    for(i=0; n > 0 && i < N; i++)
         {
         bitbox[i]= n % 2;
         n = n / 2;
@@ -29,7 +30,7 @@ void stampaRev(int bitbox[], int dim)
 int main(int argc, char const *argv[])
 {
     int n;
-    int bitbox[100];
+    int bitbox[N];
     int dim;
 
     printf("Inserisci un numero decimale: ");
