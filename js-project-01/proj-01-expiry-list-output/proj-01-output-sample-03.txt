@@ -1,0 +1,326 @@
+Week of 27-MAY-2020
+---------------------------------------------------------
+001: ......Salad..... 07-JUN-2020 ....New.... [0 checks]
+002: .....Nutella.... 13-JUN-2020 ....New.... [0 checks]
+003: .....Banana..... 24-MAY-2020 ..Expired.. [0 checks]
+004: ...Roast.Beef... 22-JUN-2020 ....New.... [0 checks]
+005: ......Meat...... 13-JUN-2020 ....New.... [0 checks]
+006: ......Rice...... 01-JUN-2020 ....New.... [0 checks]
+007: ......Apple..... 13-JUN-2020 ....New.... [0 checks]
+008: .....Nutella.... 09-JUN-2020 ....New.... [0 checks]
+
+
+Filtered
+--------
+001: ......Salad..... 07-JUN-2020 ....New.... [0 checks]
+002: .....Nutella.... 13-JUN-2020 ....New.... [0 checks]
+004: ...Roast.Beef... 22-JUN-2020 ....New.... [0 checks]
+005: ......Meat...... 13-JUN-2020 ....New.... [0 checks]
+006: ......Rice...... 01-JUN-2020 ....New.... [0 checks]
+007: ......Apple..... 13-JUN-2020 ....New.... [0 checks]
+008: .....Nutella.... 09-JUN-2020 ....New.... [0 checks]
+
+
+Week of 30-MAY-2020
+---------------------------------------------------------
+001: ......Salad..... 07-JUN-2020 ...Valid... [1 check ]
+002: .....Nutella.... 13-JUN-2020 ...Valid... [1 check ]
+004: ...Roast.Beef... 22-JUN-2020 ...Valid... [1 check ]
+005: ......Meat...... 13-JUN-2020 ...Valid... [1 check ]
+006: ......Rice...... 01-JUN-2020 ...Valid... [1 check ]
+007: ......Apple..... 13-JUN-2020 ...Valid... [1 check ]
+008: .....Nutella.... 09-JUN-2020 ...Valid... [1 check ]
+009: ......Meat...... 27-MAY-2020 ..Expired.. [0 checks]
+010: .....Banana..... 25-MAY-2020 ..Expired.. [0 checks]
+011: ......Apple..... 29-MAY-2020 ..Expired.. [0 checks]
+012: .....Banana..... 31-MAY-2020 ....New.... [0 checks]
+013: .....Nutella.... 15-JUN-2020 ....New.... [0 checks]
+014: ......Apple..... 31-MAY-2020 ....New.... [0 checks]
+015: .....Cheese..... 31-MAY-2020 ....New.... [0 checks]
+016: ...Roast.Beef... 02-JUN-2020 ....New.... [0 checks]
+
+
+Filtered
+--------
+001: ......Salad..... 07-JUN-2020 ...Valid... [1 check ]
+002: .....Nutella.... 13-JUN-2020 ...Valid... [1 check ]
+004: ...Roast.Beef... 22-JUN-2020 ...Valid... [1 check ]
+005: ......Meat...... 13-JUN-2020 ...Valid... [1 check ]
+006: ......Rice...... 01-JUN-2020 ...Valid... [1 check ]
+007: ......Apple..... 13-JUN-2020 ...Valid... [1 check ]
+008: .....Nutella.... 09-JUN-2020 ...Valid... [1 check ]
+012: .....Banana..... 31-MAY-2020 ....New.... [0 checks]
+013: .....Nutella.... 15-JUN-2020 ....New.... [0 checks]
+014: ......Apple..... 31-MAY-2020 ....New.... [0 checks]
+015: .....Cheese..... 31-MAY-2020 ....New.... [0 checks]
+016: ...Roast.Beef... 02-JUN-2020 ....New.... [0 checks]
+
+
+Week of 02-JUN-2020
+---------------------------------------------------------
+001: ......Salad..... 07-JUN-2020 ...Valid... [2 checks]
+002: .....Nutella.... 13-JUN-2020 ...Valid... [2 checks]
+004: ...Roast.Beef... 22-JUN-2020 ...Valid... [2 checks]
+005: ......Meat...... 13-JUN-2020 ...Valid... [2 checks]
+006: ......Rice...... 01-JUN-2020 ..Expired.. [2 checks]
+007: ......Apple..... 13-JUN-2020 ...Valid... [2 checks]
+008: .....Nutella.... 09-JUN-2020 ...Valid... [2 checks]
+012: .....Banana..... 31-MAY-2020 ..Expired.. [1 check ]
+013: .....Nutella.... 15-JUN-2020 ...Valid... [1 check ]
+014: ......Apple..... 31-MAY-2020 ..Expired.. [1 check ]
+015: .....Cheese..... 31-MAY-2020 ..Expired.. [1 check ]
+016: ...Roast.Beef... 02-JUN-2020 ..Expired.. [1 check ]
+017: ...Dried.Fruit.. 11-JUN-2020 ....New.... [0 checks]
+018: ......Apple..... 29-MAY-2020 ..Expired.. [0 checks]
+019: ...Green.Beans.. 25-MAY-2020 ..Expired.. [0 checks]
+020: ......Pasta..... 11-JUN-2020 ....New.... [0 checks]
+021: ......Salad..... 11-JUN-2020 ....New.... [0 checks]
+022: .....Cheese..... 20-JUN-2020 ....New.... [0 checks]
+023: .....Banana..... 16-JUN-2020 ....New.... [0 checks]
+024: ......Meat...... 03-JUN-2020 ....New.... [0 checks]
+
+
+Filtered
+--------
+001: ......Salad..... 07-JUN-2020 ...Valid... [2 checks]
+002: .....Nutella.... 13-JUN-2020 ...Valid... [2 checks]
+004: ...Roast.Beef... 22-JUN-2020 ...Valid... [2 checks]
+005: ......Meat...... 13-JUN-2020 ...Valid... [2 checks]
+007: ......Apple..... 13-JUN-2020 ...Valid... [2 checks]
+008: .....Nutella.... 09-JUN-2020 ...Valid... [2 checks]
+013: .....Nutella.... 15-JUN-2020 ...Valid... [1 check ]
+017: ...Dried.Fruit.. 11-JUN-2020 ....New.... [0 checks]
+020: ......Pasta..... 11-JUN-2020 ....New.... [0 checks]
+021: ......Salad..... 11-JUN-2020 ....New.... [0 checks]
+022: .....Cheese..... 20-JUN-2020 ....New.... [0 checks]
+023: .....Banana..... 16-JUN-2020 ....New.... [0 checks]
+024: ......Meat...... 03-JUN-2020 ....New.... [0 checks]
+
+
+Week of 05-JUN-2020
+---------------------------------------------------------
+001: ......Salad..... 07-JUN-2020 ....Old.... [3 checks]
+002: .....Nutella.... 13-JUN-2020 ....Old.... [3 checks]
+004: ...Roast.Beef... 22-JUN-2020 ....Old.... [3 checks]
+005: ......Meat...... 13-JUN-2020 ....Old.... [3 checks]
+007: ......Apple..... 13-JUN-2020 ....Old.... [3 checks]
+008: .....Nutella.... 09-JUN-2020 ....Old.... [3 checks]
+013: .....Nutella.... 15-JUN-2020 ...Valid... [2 checks]
+017: ...Dried.Fruit.. 11-JUN-2020 ...Valid... [1 check ]
+020: ......Pasta..... 11-JUN-2020 ...Valid... [1 check ]
+021: ......Salad..... 11-JUN-2020 ...Valid... [1 check ]
+022: .....Cheese..... 20-JUN-2020 ...Valid... [1 check ]
+023: .....Banana..... 16-JUN-2020 ...Valid... [1 check ]
+024: ......Meat...... 03-JUN-2020 ..Expired.. [1 check ]
+025: ......Pasta..... 19-JUN-2020 ....New.... [0 checks]
+026: ......Apple..... 18-JUN-2020 ....New.... [0 checks]
+027: ......Apple..... 15-JUN-2020 ....New.... [0 checks]
+028: ......Salad..... 31-MAY-2020 ..Expired.. [0 checks]
+029: ......Pasta..... 26-MAY-2020 ..Expired.. [0 checks]
+030: ...Dried.Fruit.. 15-JUN-2020 ....New.... [0 checks]
+031: ......Salad..... 29-MAY-2020 ..Expired.. [0 checks]
+032: ...Green.Beans.. 01-JUN-2020 ..Expired.. [0 checks]
+
+
+Filtered
+--------
+013: .....Nutella.... 15-JUN-2020 ...Valid... [2 checks]
+017: ...Dried.Fruit.. 11-JUN-2020 ...Valid... [1 check ]
+020: ......Pasta..... 11-JUN-2020 ...Valid... [1 check ]
+021: ......Salad..... 11-JUN-2020 ...Valid... [1 check ]
+022: .....Cheese..... 20-JUN-2020 ...Valid... [1 check ]
+023: .....Banana..... 16-JUN-2020 ...Valid... [1 check ]
+025: ......Pasta..... 19-JUN-2020 ....New.... [0 checks]
+026: ......Apple..... 18-JUN-2020 ....New.... [0 checks]
+027: ......Apple..... 15-JUN-2020 ....New.... [0 checks]
+030: ...Dried.Fruit.. 15-JUN-2020 ....New.... [0 checks]
+
+
+Week of 08-JUN-2020
+---------------------------------------------------------
+013: .....Nutella.... 15-JUN-2020 ....Old.... [3 checks]
+017: ...Dried.Fruit.. 11-JUN-2020 ...Valid... [2 checks]
+020: ......Pasta..... 11-JUN-2020 ...Valid... [2 checks]
+021: ......Salad..... 11-JUN-2020 ...Valid... [2 checks]
+022: .....Cheese..... 20-JUN-2020 ...Valid... [2 checks]
+023: .....Banana..... 16-JUN-2020 ...Valid... [2 checks]
+025: ......Pasta..... 19-JUN-2020 ...Valid... [1 check ]
+026: ......Apple..... 18-JUN-2020 ...Valid... [1 check ]
+027: ......Apple..... 15-JUN-2020 ...Valid... [1 check ]
+030: ...Dried.Fruit.. 15-JUN-2020 ...Valid... [1 check ]
+033: ......Apple..... 16-JUN-2020 ....New.... [0 checks]
+034: ......Meat...... 17-JUN-2020 ....New.... [0 checks]
+035: ......Salad..... 05-JUN-2020 ..Expired.. [0 checks]
+036: .....Nutella.... 22-JUN-2020 ....New.... [0 checks]
+037: .....Cheese..... 01-JUN-2020 ..Expired.. [0 checks]
+038: ......Apple..... 14-JUN-2020 ....New.... [0 checks]
+039: ......Salad..... 04-JUN-2020 ..Expired.. [0 checks]
+040: .....Banana..... 17-JUN-2020 ....New.... [0 checks]
+
+
+Filtered
+--------
+017: ...Dried.Fruit.. 11-JUN-2020 ...Valid... [2 checks]
+020: ......Pasta..... 11-JUN-2020 ...Valid... [2 checks]
+021: ......Salad..... 11-JUN-2020 ...Valid... [2 checks]
+022: .....Cheese..... 20-JUN-2020 ...Valid... [2 checks]
+023: .....Banana..... 16-JUN-2020 ...Valid... [2 checks]
+025: ......Pasta..... 19-JUN-2020 ...Valid... [1 check ]
+026: ......Apple..... 18-JUN-2020 ...Valid... [1 check ]
+027: ......Apple..... 15-JUN-2020 ...Valid... [1 check ]
+030: ...Dried.Fruit.. 15-JUN-2020 ...Valid... [1 check ]
+033: ......Apple..... 16-JUN-2020 ....New.... [0 checks]
+034: ......Meat...... 17-JUN-2020 ....New.... [0 checks]
+036: .....Nutella.... 22-JUN-2020 ....New.... [0 checks]
+038: ......Apple..... 14-JUN-2020 ....New.... [0 checks]
+040: .....Banana..... 17-JUN-2020 ....New.... [0 checks]
+
+
+Week of 11-JUN-2020
+---------------------------------------------------------
+017: ...Dried.Fruit.. 11-JUN-2020 ..Expired.. [3 checks]
+020: ......Pasta..... 11-JUN-2020 ..Expired.. [3 checks]
+021: ......Salad..... 11-JUN-2020 ..Expired.. [3 checks]
+022: .....Cheese..... 20-JUN-2020 ....Old.... [3 checks]
+023: .....Banana..... 16-JUN-2020 ....Old.... [3 checks]
+025: ......Pasta..... 19-JUN-2020 ...Valid... [2 checks]
+026: ......Apple..... 18-JUN-2020 ...Valid... [2 checks]
+027: ......Apple..... 15-JUN-2020 ...Valid... [2 checks]
+030: ...Dried.Fruit.. 15-JUN-2020 ...Valid... [2 checks]
+033: ......Apple..... 16-JUN-2020 ...Valid... [1 check ]
+034: ......Meat...... 17-JUN-2020 ...Valid... [1 check ]
+036: .....Nutella.... 22-JUN-2020 ...Valid... [1 check ]
+038: ......Apple..... 14-JUN-2020 ...Valid... [1 check ]
+040: .....Banana..... 17-JUN-2020 ...Valid... [1 check ]
+041: ......Rice...... 23-JUN-2020 ....New.... [0 checks]
+042: ......Salad..... 08-JUN-2020 ..Expired.. [0 checks]
+043: ...Green.Beans.. 21-JUN-2020 ....New.... [0 checks]
+044: ......Salad..... 04-JUN-2020 ..Expired.. [0 checks]
+045: .....Nutella.... 30-MAY-2020 ..Expired.. [0 checks]
+046: ...Green.Beans.. 03-JUN-2020 ..Expired.. [0 checks]
+047: ......Apple..... 25-MAY-2020 ..Expired.. [0 checks]
+048: .....Nutella.... 11-JUN-2020 ..Expired.. [0 checks]
+
+
+Filtered
+--------
+025: ......Pasta..... 19-JUN-2020 ...Valid... [2 checks]
+026: ......Apple..... 18-JUN-2020 ...Valid... [2 checks]
+027: ......Apple..... 15-JUN-2020 ...Valid... [2 checks]
+030: ...Dried.Fruit.. 15-JUN-2020 ...Valid... [2 checks]
+033: ......Apple..... 16-JUN-2020 ...Valid... [1 check ]
+034: ......Meat...... 17-JUN-2020 ...Valid... [1 check ]
+036: .....Nutella.... 22-JUN-2020 ...Valid... [1 check ]
+038: ......Apple..... 14-JUN-2020 ...Valid... [1 check ]
+040: .....Banana..... 17-JUN-2020 ...Valid... [1 check ]
+041: ......Rice...... 23-JUN-2020 ....New.... [0 checks]
+043: ...Green.Beans.. 21-JUN-2020 ....New.... [0 checks]
+
+
+Week of 14-JUN-2020
+---------------------------------------------------------
+025: ......Pasta..... 19-JUN-2020 ....Old.... [3 checks]
+026: ......Apple..... 18-JUN-2020 ....Old.... [3 checks]
+027: ......Apple..... 15-JUN-2020 ....Old.... [3 checks]
+030: ...Dried.Fruit.. 15-JUN-2020 ....Old.... [3 checks]
+033: ......Apple..... 16-JUN-2020 ...Valid... [2 checks]
+034: ......Meat...... 17-JUN-2020 ...Valid... [2 checks]
+036: .....Nutella.... 22-JUN-2020 ...Valid... [2 checks]
+038: ......Apple..... 14-JUN-2020 ..Expired.. [2 checks]
+040: .....Banana..... 17-JUN-2020 ...Valid... [2 checks]
+041: ......Rice...... 23-JUN-2020 ...Valid... [1 check ]
+043: ...Green.Beans.. 21-JUN-2020 ...Valid... [1 check ]
+049: ...Green.Beans.. 13-JUN-2020 ..Expired.. [0 checks]
+050: ...Green.Beans.. 04-JUN-2020 ..Expired.. [0 checks]
+051: ......Meat...... 22-JUN-2020 ....New.... [0 checks]
+052: ......Pasta..... 02-JUN-2020 ..Expired.. [0 checks]
+053: ......Rice...... 13-JUN-2020 ..Expired.. [0 checks]
+054: ...Dried.Fruit.. 27-MAY-2020 ..Expired.. [0 checks]
+055: .....Banana..... 19-JUN-2020 ....New.... [0 checks]
+056: ...Roast.Beef... 13-JUN-2020 ..Expired.. [0 checks]
+
+
+Filtered
+--------
+033: ......Apple..... 16-JUN-2020 ...Valid... [2 checks]
+034: ......Meat...... 17-JUN-2020 ...Valid... [2 checks]
+036: .....Nutella.... 22-JUN-2020 ...Valid... [2 checks]
+040: .....Banana..... 17-JUN-2020 ...Valid... [2 checks]
+041: ......Rice...... 23-JUN-2020 ...Valid... [1 check ]
+043: ...Green.Beans.. 21-JUN-2020 ...Valid... [1 check ]
+051: ......Meat...... 22-JUN-2020 ....New.... [0 checks]
+055: .....Banana..... 19-JUN-2020 ....New.... [0 checks]
+
+
+Week of 17-JUN-2020
+---------------------------------------------------------
+033: ......Apple..... 16-JUN-2020 ..Expired.. [3 checks]
+034: ......Meat...... 17-JUN-2020 ..Expired.. [3 checks]
+036: .....Nutella.... 22-JUN-2020 ....Old.... [3 checks]
+040: .....Banana..... 17-JUN-2020 ..Expired.. [3 checks]
+041: ......Rice...... 23-JUN-2020 ...Valid... [2 checks]
+043: ...Green.Beans.. 21-JUN-2020 ...Valid... [2 checks]
+051: ......Meat...... 22-JUN-2020 ...Valid... [1 check ]
+055: .....Banana..... 19-JUN-2020 ...Valid... [1 check ]
+057: ......Apple..... 19-JUN-2020 ....New.... [0 checks]
+058: .....Nutella.... 26-MAY-2020 ..Expired.. [0 checks]
+059: ......Apple..... 19-JUN-2020 ....New.... [0 checks]
+060: ......Pasta..... 29-MAY-2020 ..Expired.. [0 checks]
+061: ...Dried.Fruit.. 08-JUN-2020 ..Expired.. [0 checks]
+062: .....Cheese..... 14-JUN-2020 ..Expired.. [0 checks]
+063: ......Meat...... 24-MAY-2020 ..Expired.. [0 checks]
+064: ...Roast.Beef... 24-MAY-2020 ..Expired.. [0 checks]
+
+
+Filtered
+--------
+041: ......Rice...... 23-JUN-2020 ...Valid... [2 checks]
+043: ...Green.Beans.. 21-JUN-2020 ...Valid... [2 checks]
+051: ......Meat...... 22-JUN-2020 ...Valid... [1 check ]
+055: .....Banana..... 19-JUN-2020 ...Valid... [1 check ]
+057: ......Apple..... 19-JUN-2020 ....New.... [0 checks]
+059: ......Apple..... 19-JUN-2020 ....New.... [0 checks]
+
+
+Week of 20-JUN-2020
+---------------------------------------------------------
+041: ......Rice...... 23-JUN-2020 ....Old.... [3 checks]
+043: ...Green.Beans.. 21-JUN-2020 ....Old.... [3 checks]
+051: ......Meat...... 22-JUN-2020 ...Valid... [2 checks]
+055: .....Banana..... 19-JUN-2020 ..Expired.. [2 checks]
+057: ......Apple..... 19-JUN-2020 ..Expired.. [1 check ]
+059: ......Apple..... 19-JUN-2020 ..Expired.. [1 check ]
+065: .....Nutella.... 08-JUN-2020 ..Expired.. [0 checks]
+066: ...Roast.Beef... 05-JUN-2020 ..Expired.. [0 checks]
+067: .....Banana..... 23-JUN-2020 ....New.... [0 checks]
+068: ......Pasta..... 21-JUN-2020 ....New.... [0 checks]
+069: .....Banana..... 25-MAY-2020 ..Expired.. [0 checks]
+070: .....Nutella.... 16-JUN-2020 ..Expired.. [0 checks]
+071: ...Roast.Beef... 17-JUN-2020 ..Expired.. [0 checks]
+072: ...Roast.Beef... 10-JUN-2020 ..Expired.. [0 checks]
+
+
+Filtered
+--------
+051: ......Meat...... 22-JUN-2020 ...Valid... [2 checks]
+067: .....Banana..... 23-JUN-2020 ....New.... [0 checks]
+068: ......Pasta..... 21-JUN-2020 ....New.... [0 checks]
+
+
+Week of 23-JUN-2020
+---------------------------------------------------------
+051: ......Meat...... 22-JUN-2020 ..Expired.. [3 checks]
+067: .....Banana..... 23-JUN-2020 ..Expired.. [1 check ]
+068: ......Pasta..... 21-JUN-2020 ..Expired.. [1 check ]
+073: ......Salad..... 26-MAY-2020 ..Expired.. [0 checks]
+074: ......Rice...... 26-MAY-2020 ..Expired.. [0 checks]
+075: ...Green.Beans.. 29-MAY-2020 ..Expired.. [0 checks]
+076: ......Rice...... 14-JUN-2020 ..Expired.. [0 checks]
+077: ......Pasta..... 16-JUN-2020 ..Expired.. [0 checks]
+078: .....Nutella.... 03-JUN-2020 ..Expired.. [0 checks]
+079: ......Apple..... 27-MAY-2020 ..Expired.. [0 checks]
+080: .....Cheese..... 26-MAY-2020 ..Expired.. [0 checks]
+
+
+Filtered
+--------

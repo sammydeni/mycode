@@ -1,0 +1,117 @@
+Week of 25-MAY-2020
+---------------------------------------------------------
+001:       Salad      20-JUN-2020     New     [0 checks]
+002:       Meat       29-MAY-2020     New     [0 checks]
+003:       Meat       31-MAY-2020     New     [0 checks]
+004:    Dried Fruit   19-JUN-2020     New     [0 checks]
+
+
+Filtered
+--------
+001:       Salad      20-JUN-2020     New     [0 checks]
+002:       Meat       29-MAY-2020     New     [0 checks]
+003:       Meat       31-MAY-2020     New     [0 checks]
+004:    Dried Fruit   19-JUN-2020     New     [0 checks]
+
+
+Week of 26-MAY-2020
+---------------------------------------------------------
+001:       Salad      20-JUN-2020    Valid    [1 check ]
+002:       Meat       29-MAY-2020    Valid    [1 check ]
+003:       Meat       31-MAY-2020    Valid    [1 check ]
+004:    Dried Fruit   19-JUN-2020    Valid    [1 check ]
+005:       Apple      30-MAY-2020     New     [0 checks]
+006:      Nutella     15-JUN-2020     New     [0 checks]
+007:    Green Beans   19-JUN-2020     New     [0 checks]
+008:       Pasta      21-JUN-2020     New     [0 checks]
+
+
+Filtered
+--------
+001:       Salad      20-JUN-2020    Valid    [1 check ]
+002:       Meat       29-MAY-2020    Valid    [1 check ]
+003:       Meat       31-MAY-2020    Valid    [1 check ]
+004:    Dried Fruit   19-JUN-2020    Valid    [1 check ]
+005:       Apple      30-MAY-2020     New     [0 checks]
+006:      Nutella     15-JUN-2020     New     [0 checks]
+007:    Green Beans   19-JUN-2020     New     [0 checks]
+008:       Pasta      21-JUN-2020     New     [0 checks]
+
+
+Week of 27-MAY-2020
+---------------------------------------------------------
+001:       Salad      20-JUN-2020     Old     [2 checks]
+002:       Meat       29-MAY-2020     Old     [2 checks]
+003:       Meat       31-MAY-2020     Old     [2 checks]
+004:    Dried Fruit   19-JUN-2020     Old     [2 checks]
+005:       Apple      30-MAY-2020    Valid    [1 check ]
+006:      Nutella     15-JUN-2020    Valid    [1 check ]
+007:    Green Beans   19-JUN-2020    Valid    [1 check ]
+008:       Pasta      21-JUN-2020    Valid    [1 check ]
+009:    Dried Fruit   31-MAY-2020     New     [0 checks]
+010:    Green Beans   16-JUN-2020     New     [0 checks]
+011:       Salad      10-JUN-2020     New     [0 checks]
+012:    Green Beans   25-MAY-2020   Expired   [0 checks]
+
+
+Filtered
+--------
+005:       Apple      30-MAY-2020    Valid    [1 check ]
+006:      Nutella     15-JUN-2020    Valid    [1 check ]
+007:    Green Beans   19-JUN-2020    Valid    [1 check ]
+008:       Pasta      21-JUN-2020    Valid    [1 check ]
+009:    Dried Fruit   31-MAY-2020     New     [0 checks]
+010:    Green Beans   16-JUN-2020     New     [0 checks]
+011:       Salad      10-JUN-2020     New     [0 checks]
+
+
+Week of 28-MAY-2020
+---------------------------------------------------------
+005:       Apple      30-MAY-2020     Old     [2 checks]
+006:      Nutella     15-JUN-2020     Old     [2 checks]
+007:    Green Beans   19-JUN-2020     Old     [2 checks]
+008:       Pasta      21-JUN-2020     Old     [2 checks]
+009:    Dried Fruit   31-MAY-2020    Valid    [1 check ]
+010:    Green Beans   16-JUN-2020    Valid    [1 check ]
+011:       Salad      10-JUN-2020    Valid    [1 check ]
+013:      Cheese      20-JUN-2020     New     [0 checks]
+014:       Salad      20-JUN-2020     New     [0 checks]
+015:       Salad      05-JUN-2020     New     [0 checks]
+016:       Apple      14-JUN-2020     New     [0 checks]
+
+
+Filtered
+--------
+009:    Dried Fruit   31-MAY-2020    Valid    [1 check ]
+010:    Green Beans   16-JUN-2020    Valid    [1 check ]
+011:       Salad      10-JUN-2020    Valid    [1 check ]
+013:      Cheese      20-JUN-2020     New     [0 checks]
+014:       Salad      20-JUN-2020     New     [0 checks]
+015:       Salad      05-JUN-2020     New     [0 checks]
+016:       Apple      14-JUN-2020     New     [0 checks]
+
+
+Week of 29-MAY-2020
+---------------------------------------------------------
+009:    Dried Fruit   31-MAY-2020     Old     [2 checks]
+010:    Green Beans   16-JUN-2020     Old     [2 checks]
+011:       Salad      10-JUN-2020     Old     [2 checks]
+013:      Cheese      20-JUN-2020    Valid    [1 check ]
+014:       Salad      20-JUN-2020    Valid    [1 check ]
+015:       Salad      05-JUN-2020    Valid    [1 check ]
+016:       Apple      14-JUN-2020    Valid    [1 check ]
+017:       Pasta      18-JUN-2020     New     [0 checks]
+018:    Dried Fruit   20-JUN-2020     New     [0 checks]
+019:       Meat       23-JUN-2020     New     [0 checks]
+020:      Nutella     24-MAY-2020   Expired   [0 checks]
+
+
+Filtered
+--------
+013:      Cheese      20-JUN-2020    Valid    [1 check ]
+014:       Salad      20-JUN-2020    Valid    [1 check ]
+015:       Salad      05-JUN-2020    Valid    [1 check ]
+016:       Apple      14-JUN-2020    Valid    [1 check ]
+017:       Pasta      18-JUN-2020     New     [0 checks]
+018:    Dried Fruit   20-JUN-2020     New     [0 checks]
+019:       Meat       23-JUN-2020     New     [0 checks]
