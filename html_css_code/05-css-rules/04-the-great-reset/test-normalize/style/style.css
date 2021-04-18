@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+#bike-home {
+    width: 46%;
+    height: auto;
+    display: inline-block;
+}
+#content p {
+    width: 46%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+}
+.bike {
+    width: 32%;
+}
+#shop {
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+    height: 25px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
