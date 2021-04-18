@@ -8,10 +8,10 @@ Simple Styling
 * For the first folder use inline styling, for the second embedded, and use an
 * external css file for the third
 * Use at least the following style changes
-** Change the size of a text
-** Change the color
-** Change the background color of one or more elements
-** Change the font
+    * Change the size of a text
+    * Change the color
+    * Change the background color of one or more elements
+    * Change the font
 
 ## Approach to solution
 * I created three folders. Each for every different style
@@ -19,5 +19,7 @@ Simple Styling
 * For the first folder I used inline styling, for the second embedded, and I used external css file for the third
 
 ## Files
-#file index.html
-#file style.css
+* [Embedded Index](embedded/index.html) 
+* [External Index](external/index.html) &nbsp;
+[External Style](external/style/style.css) 
+* [Inline Style](inline/index.html) 
