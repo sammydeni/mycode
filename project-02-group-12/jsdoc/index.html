@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Home</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Home</h1>
+
+    
+
+
+
+    
+
+
+    <h3> </h3>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <section>
+        <article><h1>Author details</h1>
+<p><em>Gianluca Formica, Yasser Ennasri, Samuele Denicola, Stefano Vetrò</em></p>
+<h1>Exercise requirements</h1>
+<p><strong>Project expiry list</strong></p>
+<ul>
+<li>
+<p><strong>Aim</strong></p>
+<p>Create a javascript program, which allows you to enter a list of supermarket products filtered by expiration in your place.</p>
+<br>
+</li>
+<li>
+<p><strong>Requirements</strong></p>
+<p>Classify products for expired, new, old and valid. To be classified in this way, the expired items must be removed (<em>expired</em>),
+after a few weeks the products will be removed (<em>old</em>), every week there will be new products (<em>new</em>), after checking them the
+products become valid (<em>valid</em>) .</p>
+<br>
+<ul>
+<li>
+<p><em>Rules</em></p>
+<ul>
+<li>
+<p>N - are products that have been around for more than a few weeks, so they need to be removed</p>
+</li>
+<li>
+<p>M - are the new products every week.</p>
+</li>
+<li>
+<p>K - day of departure of the program.</p>
+</li>
+<li>
+<p>X - the period of performance in weeks.</p>
+</li>
+<li>
+<p>R - are the duration in seconds of printing the weekly list.</p>
+</li>
+</ul>
+<p>The program should start from the current date plus K days and run for X weeks.</p>
+</li>
+</ul>
+  <br>
+<ul>
+<li>
+<p><em>Item structure</em></p>
+<p>The table must consist of:</p>
+<ul>
+<li>
+<p>an ID;</p>
+</li>
+<li>
+<p>a name;</p>
+</li>
+<li>
+<p>an expiration date;</p>
+</li>
+<li>
+<p>and other properties that are necessary;</p>
+</li>
+</ul>
+</li>
+</ul>
+ <br>
+<ul>
+<li>
+<p><em>Guidelines</em></p>
+<ul>
+<li>
+<p>Uniqueness of the ID.</p>
+</li>
+<li>
+<p>Filling of the number with zero in the ID (e.g. 01 or 001).</p>
+</li>
+<li>
+<p>Randomness of the name taken from a given set.</p>
+</li>
+<li>
+<p>The expiry dates should be between the start and finish date of the weekly runs.</p>
+</li>
+<li>
+<p>Filling of names and states to have the same length.</p>
+</li>
+<li>
+<p>The font filling must be configurable.</p>
+</li>
+<li>
+<p>The formatting must be as in the example 03-JUN-2021.</p>
+</li>
+<li>
+<p>The print on the console must always be correctly aligned.</p>
+</li>
+</ul>
+</li>
+</ul>
+ <br>
+<ul>
+<li>
+<p><em>Bonus</em></p>
+<ul>
+<li>
+<p>Bonus 1: create a random number MIN MAX of duration R, which can be configurable in the config object.</p>
+</li>
+<li>
+<p>Bonus 2: use colors in the console.log output.</p>
+</li>
+<li>
+<p>Bonus 3: create a date format in the user defined object and allow you to format dates. Not using moment.js.</p>
+</li>
+</ul>
+</li>
+</ul>
+ <br>
+</li>
+</ul>
+<h1>Approach to solution</h1>
+<p>We read and studied the pdf that was provided to us and subsequently consulted sites such as w3school and MDN.
+With the various problems that arose we also looked at the lessons.</p>
+<p>The first thing we did was put some ideas into code and the variables have been initialized, that is: k, m, x, n, r.</p>
+<p>We developed this program by putting the focus on one parameter at a time, making sure that each step is displayed correctly in the console.</p>
+<p>The code was written first in single JS file and was subsequently subdivided into several libraries through the use of IIFE.</p>
+<p>The four library are:</p>
+<ul>
+<li>
+<p>librarydating.js : Contains the functions to set start and end dates and the range for generating the expiry date.</p>
+</li>
+<li>
+<p>libraryfunction.js : Contains all functions that we used to modify date, string ecc.</p>
+</li>
+<li>
+<p>libraryitem.js : Contains functions to create all items.</p>
+</li>
+<li>
+<p>libraryprinter.js : Contains functions to print items in the correct way.</p>
+</li>
+</ul>
+<p>Later we dealt with the bonuses by consulting several websites. The third bonus has not been developed.</p>
+<p>All the code has been properly commented.</p>
+ <br>
+<h2>References:</h2>
+<ul>
+<li>
+<p><a href="www.stackoverflow.com">Stackoverflow</a></p>
+</li>
+<li>
+<p><a href="www.w3schools.com">W3schools</a></p>
+</li>
+<li>
+<p><a href="developer.mozilla.org">MDN</a></p>
+</li>
+</ul>
+<br>
+<h2>Files</h2>
+<ul>
+<li><a href="index.html">Index</a></li>
+<li><a href="script/main.js">Main</a></li>
+<li><a href="script/librarydating.js">LibraryDating</a></li>
+<li><a href="script/libraryfunction.js">LibraryFunction</a></li>
+<li><a href="script/libraryitem.js">LibraryItem</a></li>
+<li><a href="script/libraryprinter.js">LibraryPrinter</a></li>
+</ul></article>
+    </section>
+
+
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#filtered">filtered</a></li><li><a href="global.html#generateDateexpiry">generateDateexpiry</a></li><li><a href="global.html#generateend">generateend</a></li><li><a href="global.html#generateendexpiry">generateendexpiry</a></li><li><a href="global.html#generateID">generateID</a></li><li><a href="global.html#generateName">generateName</a></li><li><a href="global.html#generatestart">generatestart</a></li><li><a href="global.html#i">i</a></li><li><a href="global.html#input">input</a></li><li><a href="global.html#item">item</a></li><li><a href="global.html#modifydate">modifydate</a></li><li><a href="global.html#nameItem">nameItem</a></li><li><a href="global.html#padLeadingZeros">padLeadingZeros</a></li><li><a href="global.html#pluralize">pluralize</a></li><li><a href="global.html#print">print</a></li><li><a href="global.html#printitemweek">printitemweek</a></li><li><a href="global.html#pushitem">pushitem</a></li><li><a href="global.html#r">r</a></li><li><a href="global.html#randomR">randomR</a></li><li><a href="global.html#startexpiry">startexpiry</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.6</a> on Sat Apr 24 2021 12:49:51 GMT+0200 (Central European Summer Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
