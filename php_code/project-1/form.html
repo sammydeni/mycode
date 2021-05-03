@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form {
+            margin-top: 200px;
+        }
+        table {
+            text-align: left;
+        }
+    </style>
+    <title>Film & SerieTV</title>
+</head>
+<body>
+    <div id="box">
+
+    <center><form action="api.php" method="post">
+        <table>
+            <tr>
+                <th>
+                <label for="title">Titolo</label> <br>
+                </th>
+                <th>
+                <label for="rate">Rate</label>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="title" placeholder="nome del film" id="title">
+                </td>
+                <td>
+                <select name="rate" id="rate">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                </td>
+            </tr>
+        </table>
+    </form></center>
+    </div>
+</body>
+</html>
