@@ -3,6 +3,8 @@ Font Mania
 
 ## Exercise requirements
 * Create an HTML file with some headings, paragraphs, lists and links
+
+
 * Style the page using colors and fonts
     * Links not inside lists and paragraphs should be red
     * Links inside lists should have a web-safe font and should not be red
