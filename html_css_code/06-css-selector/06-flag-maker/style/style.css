@@ -1,10 +1,22 @@
+.flag-box {
+    float: left;
+    width: 33.33%;
+}
+
+.flag-box table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 td {
     width: 20px;
     height: 20px;
     border: 1px solid black;
 }
 
+
 /* germany flag */
+
 .germany:nth-child(n) {
     background-color: black;
 }
@@ -14,23 +26,27 @@ td {
 }
 
 .tr-germany:nth-child(n+7) .germany:nth-child(n) {
-    background-color:yellow;
+    background-color: yellow;
 }
 
+
 /* italy flag */
-td.italy:nth-child(n){
+
+td.italy:nth-child(n) {
     background-color: green;
 }
 
-td.italy:nth-child(n+4){
+td.italy:nth-child(n+4) {
     background-color: white;
 }
 
-td.italy:nth-child(n+7){
+td.italy:nth-child(n+7) {
     background-color: red;
 }
 
+
 /* germany to italy hover */
+
 #germany:hover td.germany:nth-child(n) {
     background-color: green;
 }
@@ -43,7 +59,9 @@ td.italy:nth-child(n+7){
     background-color: red;
 }
 
+
 /* italy to france */
+
 #italy:hover td.italy:nth-child(n) {
     background-color: blue;
 }
@@ -57,6 +75,45 @@ td.italy:nth-child(n+7){
 }
 
 
+/* USA flag */
+
+#usa {
+    color: white;
+}
+
+tr:nth-last-of-type(odd) {
+    background-color: red;
+}
 
 
+/* blue square */
 
+.flag {
+    background-color: blue;
+    text-align: center;
+}
+
+
+/* USA to Italy */
+
+#usa:hover {
+    color: transparent;
+}
+
+#usa:hover td:nth-child(n) {
+    background-color: green;
+}
+
+
+/* Italy white columns on hover */
+
+#usa:hover td:nth-child(n+4) {
+    background-color: white;
+}
+
+
+/* Italy red columns on hover */
+
+#usa:hover td:nth-child(n+7) {
+    background-color: red;
+}
