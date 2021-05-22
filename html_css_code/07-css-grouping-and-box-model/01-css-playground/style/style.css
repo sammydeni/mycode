@@ -1,0 +1,88 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background-color: #e37d5e;
+}
+
+header h1 {
+    color: #84ccca;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: overline;
+}
+
+#content {
+    height: 500px;
+}
+
+#img-box {
+    width: 50%;
+    height: inherit;
+    float: left;
+    position: relative;
+}
+
+#img-box img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#p-box {
+    width: 50%;
+    height: inherit;
+    float: right;
+    position: relative;
+}
+
+#p-box p {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-family: monospace;
+}
+
+#sidebar {
+    position: fixed;
+    width: 100px;
+    height: 165px;
+    background-color: #e8a97d;
+    z-index: 10;
+    top: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+#sidebar p {
+    width: 1px;
+    word-wrap: break-word;
+    font-family: monospace;
+    font-size: 30px;
+    margin-left: 32px;
+    margin-top: 15px;
+    color: #40b2a3;
+    /* this is just for good looks */
+}
+
+footer {
+    width: 100%;
+    background-color: #40b2a3;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+}
