@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.frog {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.type1 {
+    background-color: orange;
+}
+
+.type1 .eyes {
+    background-color: rgb(247, 195, 99);
+}
+
+.type2 .eyes {
+    background-color: rgb(87, 197, 87);
+}
+
+.type2 {
+    background-color: green;
+}
+
+.small {
+    width: 100px;
+    height: 50px;
+}
+
+.big {
+    width: 200px;
+    height: 80px;
+}
+
+.eyes {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 10;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.frog:hover .eyes {
+    background-color: black;
+    color: white;
+}
+
+.big .eyes {
+    width: 40px;
+    height: 40px;
+}
+
+.eyes:first-child {
+    top: -20px;
+    left: -15px;
+}
+
+.eyes:last-child {
+    top: -20px;
+    right: -15px;
+}
