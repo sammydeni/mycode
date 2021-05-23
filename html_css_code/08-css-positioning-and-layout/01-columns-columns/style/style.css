@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+header {
+    height: 4vh;
+    position: fixed;
+    border: 1px solid red;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+footer {
+    height: 4vh;
+    position: fixed;
+    border: 1px solid red;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#main {
+    height: auto;
+    margin-top: 4vh;
+    border: 1px solid violet;
+}
+
+.column {
+    width: 40%;
+    height: inherit;
+    float: left;
+    border: 1px solid blue;
+}
+
+.column:first-child {
+    width: 20%;
+}
+
+#column1 img {
+    width: 100%;
+}
