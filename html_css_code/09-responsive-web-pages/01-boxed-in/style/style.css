@@ -1,0 +1,33 @@
+#main-img {
+    display: block;
+}
+
+@media screen and (max-width: 1200px) {
+    #main-img {
+        content: url(../img/simpson2.gif) !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #main-img {
+        content: url(../img/simpson3.gif) !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #main-img {
+        content: url(../img/simpson4.gif) !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #main-img {
+        content: url(../img/simpson5.gif) !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #main-img {
+        content: url(../img/simpson6.gif) !important;
+    }
+}
