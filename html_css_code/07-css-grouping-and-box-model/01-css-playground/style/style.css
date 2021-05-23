@@ -86,3 +86,7 @@ footer {
     position: absolute;
     bottom: 0;
 }
+
+#highlight {
+    background-color: blueviolet;
+}
