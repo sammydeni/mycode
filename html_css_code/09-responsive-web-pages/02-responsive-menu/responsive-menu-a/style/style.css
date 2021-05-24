@@ -133,17 +133,11 @@ table {
     border-spacing: 0;
 }
 
-
-/* GENERAL */
-
 body {
     background-color: #f3f3f3;
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
-
-
-/* NAV */
 
 nav.navigation {
     position: relative;
@@ -151,18 +145,6 @@ nav.navigation {
     background-color: #3c3c3c;
     z-index: 2;
 }
-
-
-/* .nav-logo{
-	float:left;
-	height:50px;
-	line-height:50px;
-	padding:0 20px;
-	background-color:#11999e;
-	color:#ffffff;
-	font-weight:700;
-	text-transform:uppercase;
- } */
 
 ul.nav-menu,
 ul.nav-menu li,
