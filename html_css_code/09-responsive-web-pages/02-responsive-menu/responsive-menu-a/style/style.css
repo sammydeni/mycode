@@ -272,10 +272,11 @@ span.icon-bar {
     width: 80%;
     margin: 5%;
     padding: 5%;
-    background-color: #ffffff;
+    background-color: #31bdaa;
     font-size: 16px;
     font-weight: 300;
     line-height: 20px;
+    border-radius: 10px;
 }
 
 .site-container p {
