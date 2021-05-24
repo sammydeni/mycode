@@ -1,0 +1,100 @@
+/*** HEADER ***/
+
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Roboto:wght@100&family=Rochester&display=swap");
+
+/*** GENERAL STYLING ***/
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+nav {
+    padding: 5px 30px;
+    background: #1d3545;
+}
+
+nav ul li {
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+nav ul li.logo {
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    font-family: Rochester;
+    cursor: default;
+    user-select: none;
+    text-align: center;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li:hover a {
+    color: cyan;
+}
+
+nav ul li.items {
+    position: relative;
+    width: auto;
+    margin: 0 16px;
+    text-align: center;
+}
+
+nav ul li.items:hover {
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #33ffff, inset 0 0 10px #66ffff;
+}
+
+nav ul li.items:hover:after {
+    opacity: 0;
+}
+
+@media all and (min-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        /* dont understdand why*/
+        align-items: center;
+        justify-content: center;
+    }
+    nav ul li.logo {
+        flex: 1;
+        color: white;
+        font-size: 30px;
+        font-family: Rochester;
+        cursor: default;
+        user-select: none;
+    }
+    nav ul li.btn {
+        display: none;
+    }
+    nav ul li.items:after {
+        /* check this*/
+        position: absolute;
+        content: "";
+        /* check this*/
+        left: 0;
+        bottom: 5px;
+        height: 2px;
+        width: 100%;
+        background: red;
+        opacity: 0;
+        transition: all 0.2s linear;
+    }
+    nav ul li.items:hover:after {
+        opacity: 1;
+        bottom: 8px;
+    }
+    nav ul li.items:hover {
+        box-shadow: none;
+    }
+}
