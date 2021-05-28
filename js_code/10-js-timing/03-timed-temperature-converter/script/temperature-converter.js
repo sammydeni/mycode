@@ -10,8 +10,6 @@ function fahrenheitToCelsius(fahrenheit) {
     return fToC;
 }
 
-// var frase1 = celsiusToFahrenheit(28);
-
 var i = 0;
 var intervalID;
 
