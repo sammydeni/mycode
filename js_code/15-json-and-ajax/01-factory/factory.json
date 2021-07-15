@@ -1,0 +1,6 @@
+{
+    "name" : "Gigafactory",
+    "place" : "Berlin",
+    "cars" : ["Model 3", "Model S", "Model X"],
+    "ecosostenibile" : "true"
+}

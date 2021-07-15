@@ -1,0 +1,6 @@
+{
+    "posti" : 5,
+    "modello" : "Pandino",
+    "elettrica" : "false",
+    "marce" : [1, 2, 3 , 4]
+}
