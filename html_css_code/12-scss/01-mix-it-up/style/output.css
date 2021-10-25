@@ -1,0 +1,13 @@
+#simpleDiv {
+  border-radius: 20px;
+  border: 1px solid black;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin: 5px;
+  height: 90%;
+  width: 80%;
+}
+
+/*# sourceMappingURL=output.css.map */

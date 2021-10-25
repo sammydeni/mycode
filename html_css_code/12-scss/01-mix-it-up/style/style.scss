@@ -1,0 +1,23 @@
+@mixin box($b-color: white) {
+  @include rounded(black, 20px);
+  margin: 5px;
+}
+
+@mixin rounded($border-color: green, $round-size: 15px) {
+  border-radius: $round-size;
+  border: 1px solid $border-color;
+  @include textFormat(purple);
+}
+
+@mixin textFormat($t-color: black) {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+#simpleDiv {
+  @include box(green);
+  height: 90%;
+  width: 80%;
+}
