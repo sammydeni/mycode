@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>In Formation</title>
+  </head>
+  <body>
+    <h2 class="text-center">Arch Community Member Submission</h2>
+    <div class="container">
+      <form action="https://enxfhc8wiojtp.x.pipedream.net" method="post">
+        <div class="input-group mb-3">
+          <span class="input-group-text">First and last name</span>
+          <input
+            type="text"
+            aria-label="First name"
+            class="form-control"
+            required
+            maxlength="30"
+          />
+          <input
+            type="text"
+            aria-label="Last name"
+            class="form-control"
+            required
+            maxlength="30"
+          />
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">@</span>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Username"
+            aria-label="Username"
+            aria-describedby="basic-addon1"
+            minlength="8"
+            maxlength="15"
+            required
+          />
+        </div>
+
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Arch Username"
+            aria-label="Arch Username"
+            aria-describedby="basic-addon2"
+          />
+          <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+        </div>
+
+        <label for="basic-url" class="form-label">Your Github Profile</label>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon3"
+            >https://github.com/</span
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="basic-url"
+            aria-describedby="basic-addon3"
+          />
+        </div>
+
+        <label for="donation" class="form-label">Donation</label>
+        <div class="input-group mb-3">
+          <span class="input-group-text">$</span>
+          <input
+            id="donation"
+            type="text"
+            class="form-control"
+            aria-label="Amount (to the nearest dollar)"
+            min="1"
+            max="100"
+          />
+          <span class="input-group-text">.00</span>
+        </div>
+
+        <div class="input-group mb-3">
+          <div class="input-group-text">
+            <input
+              class="form-check-input mt-0"
+              type="checkbox"
+              placeholder="I've been using Arch for more than 2 years"
+              aria-label="Checkbox for following text input"
+            />
+          </div>
+          <input
+            type="text"
+            class="form-control"
+            aria-label="Text input with checkbox"
+          />
+        </div>
+
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Username"
+            aria-label="Username"
+            maxlength="15"
+            minlength="8"
+          />
+          <span class="input-group-text">@</span>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Server"
+            aria-label="Server"
+            maxlength="30"
+            minlength="15"
+          />
+        </div>
+
+        <div class="input-group">
+          <span class="input-group-text">Hobby</span>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+
+        <div class="mb-3">
+          <label for="formFile" class="form-label">Upload the resume</label>
+          <input class="form-control" type="file" id="formFile" />
+        </div>
+        <button type="submit" class="btn btn-primary">Send Submission</button>
+      </form>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
